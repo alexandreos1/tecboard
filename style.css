@@ -1,0 +1,133 @@
+/* Definição de fontes */
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("./fonts/Unbounded-Bold.ttf")
+    format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Popins";
+    src: url("./fonts/Poppins-Regular.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILO DESKTOP */ 
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+header img {
+    display: block;
+    margin: 45px 0 0 170px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Unbounded", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 span {
+    color: #9747FF;
+}
+
+p {
+    display: block;
+    font-size: 24px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    width: 780px;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    border-radius: 36px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    margin: 30px auto;
+}
+
+a:hover {
+    background-color: #8233E8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+section img {
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+
+/* Celular: telas até 767px */
+@media(max-width: 767px){
+
+    header img {
+        margin: 35px 0 0 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    a {
+        font-size: 20px;
+        width: 250px;
+    }
+
+    section img {
+        width: 340px;
+        height: 230px;
+        margin: 0 auto;
+    }
+
+}
+
+/* Tablet: entre 768px e 1024px */
+@media(min-width: 768px) and (max-width: 1102px) {
+
+    header img {
+        margin: 65px 0px 0px 60px;
+    }
+    
+    p {
+        font-size: 35px;
+    }
+
+    a {
+        font-size: 30px;
+        width: 660px;
+    }
+
+}
