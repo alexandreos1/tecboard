@@ -85,6 +85,14 @@ section img {
     margin: 0 auto;
 }
 
+footer p {
+    font-size: 10px;
+}
+
+strong {
+    color: #9747FF;
+}
+
 /* Celular: telas até 767px */
 @media(max-width: 767px){
 
